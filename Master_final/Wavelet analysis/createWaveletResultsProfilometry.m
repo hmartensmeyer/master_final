@@ -4,7 +4,7 @@
 %%
 clear;clc;
 
-%% I. Read Video and Prepare Timestamp
+%% I Read Video and Prepare Timestamp
 %data = load ('..\data\SZ_VFD10p5Hz_TimeResolved_Run1_1920x1080_camCal_undistorted_test1.mat');
 %data = load ('..\data\SZ_VFD10p5Hz_TimeResolved_Run1_60fps_test1.mat');
 %data = load('..\data\SZ_VFD10p5Hz_TimeResolved_Run1_1920x1080.mat');
