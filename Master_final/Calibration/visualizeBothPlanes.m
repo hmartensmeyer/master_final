@@ -3,8 +3,7 @@ clear; clc;
 % LOAD THE DATA AND RUN ONE OF THE TWO FUNCTIONS DEFINED IN THE BOTTOM OF
 % THIS SCRIPT
 
-% INPUT 1 SHOULD BE THE GROUND TRUTH, WHILE THE SECOND SHOULD BE
-% EITHER PIV OR PROFILOMETRY
+% INPUT 1 SHOULD BE THE 'GROUND TRUTH' (I USED THE WAVELET COEFFS FROM THE CEILING), WHILE THE SECOND WAS PIV
 
 %% -----------------------------------------------------------------------
 data3 = load('lambda2_series_1.mat');        % data1.lambda2_series is a cell array.
