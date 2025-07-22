@@ -2,9 +2,9 @@
 
 This repository contains the code used for the master's thesis Recognising sub-surface turbulence via light reflected from a free surface at NTNU.
 
-Vortices are detected in both surface optical reflections and in surface elevation data via profilometry, and compared to sub-surface vortices identified using Stereoscopic Particle Image Velocimetry (SPIV). For processing the optical reflections, a GoPro camera is used to record the ceiling reflection, and the data is processed using [processing.m](Master_final/Video and processing/processing.m). The wavelet analysis is performed in createWaveletResults.m. For the profilometry data, the same wavelet-based strategy is applied.
+Vortices are detected in both surface optical reflections and in surface elevation data via profilometry, and compared to sub-surface vortices identified using Stereoscopic Particle Image Velocimetry (SPIV). For processing the optical reflections, a GoPro camera is used to record the ceiling reflection, and the data is processed using Master_final/Video and processing/processing.m. The wavelet analysis is performed in Master_final/Wavelet analysis/createWaveletResults.m. For the profilometry data, the same wavelet-based strategy is applied in Master_final/Wavelet analysis/createWaveletResultsProfilometry.m.
 
-Sub-surface vortices are detected in SPIV data using the λ₂-criterion implemented in XXXXX. The surface and sub-surface planes are spatially aligned through a calibration process described in XXXXX.
+Sub-surface vortices are detected in SPIV data using the λ₂-criterion implemented in Master_final/Lambda2 and divergence/readPIV_multipleFrames_import.m. The surface and sub-surface planes are spatially aligned through a calibration process described in XXXXX.
 
 The full methodology and comparison between modalities are described in detail in the accompanying master's thesis PDF.
 
