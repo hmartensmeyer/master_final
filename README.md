@@ -8,3 +8,6 @@ Sub-surface vortices are detected in SPIV data using the λ₂-criterion impleme
 
 The full methodology and comparison between modalities are described in detail in the accompanying master's thesis PDF.
 
+# Requirements
+
+|-- Not completely sure
