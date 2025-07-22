@@ -8,7 +8,7 @@ Sub-surface vortices are detected in SPIV data using the λ₂-criterion impleme
 
 There are some other files in there as well. Master_final/Analysis and create figs is for creating the results presented in the thesis.
 
-The full methodology and comparison between modalities are described in detail in the accompanying master's thesis PDF.
+The full methodology is described in detail in the master's thesis PDF.
 
 ## Requirements
 
